@@ -7,8 +7,7 @@
     { "source": "/blog",     "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/blog-grid.html" },
     { "source": "/contact",  "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/page-contact.html" },
     { "source": "/search",   "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/search.html" },
-    { "source": "/thank-you", "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/thank-you.html" },
-    { "source": "/:path([^\\.]+)", "destination": "/404.html" }
+    { "source": "/thank-you", "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/thank-you.html" }
   ],
   "redirects": [
     { "source": "/", "destination": "/home", "permanent": true },
