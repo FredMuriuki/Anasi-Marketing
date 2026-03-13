@@ -1,0 +1,42 @@
+{
+  "rewrites": [
+    { "source": "/home",     "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/index.html" },
+    { "source": "/about",    "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/page-about.html" },
+    { "source": "/services", "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/page-services.html" },
+    { "source": "/faq",      "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/page-faq.html" },
+    { "source": "/blog",     "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/blog-grid.html" },
+    { "source": "/contact",  "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/page-contact.html" },
+    { "source": "/search",   "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/search.html" },
+    { "source": "/thank-you", "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/thank-you.html" },
+    { "source": "/:path([^\\.]+)", "destination": "/404.html" }
+  ],
+  "redirects": [
+    { "source": "/", "destination": "/home", "permanent": true },
+    { "source": "/home/", "destination": "/home", "permanent": true },
+    { "source": "/about/", "destination": "/about", "permanent": true },
+    { "source": "/services/", "destination": "/services", "permanent": true },
+    { "source": "/faq/", "destination": "/faq", "permanent": true },
+    { "source": "/blog/", "destination": "/blog", "permanent": true },
+    { "source": "/contact/", "destination": "/contact", "permanent": true },
+    { "source": "/search/", "destination": "/search", "permanent": true },
+    { "source": "/thank-you/", "destination": "/thank-you", "permanent": true },
+    { "source": "/index.html", "destination": "/home", "permanent": true },
+    { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/index.html", "destination": "/home", "permanent": true },
+    { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/home", "destination": "/home", "permanent": true },
+    { "source": "/page-about.html",    "destination": "/about",    "permanent": true },
+    { "source": "/page-services.html", "destination": "/services", "permanent": true },
+    { "source": "/page-faq.html",      "destination": "/faq",      "permanent": true },
+    { "source": "/blog-grid.html",     "destination": "/blog",     "permanent": true },
+    { "source": "/page-contact.html",  "destination": "/contact",  "permanent": true },
+    { "source": "/search.html",        "destination": "/search",   "permanent": true },
+    { "source": "/thank-you.html",     "destination": "/thank-you", "permanent": true },
+
+    { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/page-about.html",    "destination": "/about",    "permanent": true },
+    { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/page-services.html", "destination": "/services", "permanent": true },
+    { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/page-faq.html",      "destination": "/faq",      "permanent": true },
+    { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/blog-grid.html",     "destination": "/blog",     "permanent": true },
+    { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/page-contact.html",  "destination": "/contact",  "permanent": true },
+    { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/search.html",        "destination": "/search",   "permanent": true },
+    { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/thank-you.html",     "destination": "/thank-you", "permanent": true }
+  ]
+}
