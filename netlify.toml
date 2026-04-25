@@ -6,13 +6,16 @@
   from = "/services"
   to = "/page-services.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/about"
   to = "/page-about.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/contact"
   to = "/page-contact.html"
   status = 200
+  force = true
