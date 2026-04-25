@@ -1,8 +1,12 @@
 [build]
+  # This tells Netlify to go deep into your folder structure
   base = "html.anasimarketing.ltd/2025/anasimarketing-html"
+  
+  # This tells Netlify the files are right there in that base folder
   publish = "."
 
 [build.processing]
   skip_processing = false
 [build.processing.html]
+  # This allows anasimarketing.ltd/page-about to work without the .html
   pretty_urls = true
