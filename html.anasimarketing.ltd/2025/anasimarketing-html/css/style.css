@@ -11039,16 +11039,27 @@ banner-section-h2
 }
 
 .services-section-h2 .outer-box .lower-box .service-block-h2 .inner-box .content-box .title-box .title {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 600;
   line-height: 100%;
   font-family: var(--title-font);
   color: var(--theme-color-white);
+  white-space: nowrap !important;
+  display: inline-block !important;
+}
+
+.services-section-h2 .outer-box .lower-box .service-block-h2 .inner-box .content-box .title-box .title a {
+  white-space: nowrap !important;
+  display: inline-block !important;
 }
 
 @media (max-width: 1399.98px) {
   .services-section-h2 .outer-box .lower-box .service-block-h2 .inner-box .content-box .title-box .title {
     font-size: 50px;
+    white-space: nowrap;
+  }
+  .services-section-h2 .outer-box .lower-box .service-block-h2 .inner-box .content-box .title-box .title a {
+    white-space: nowrap;
   }
 }
 
@@ -11056,6 +11067,10 @@ banner-section-h2
   .services-section-h2 .outer-box .lower-box .service-block-h2 .inner-box .content-box .title-box .title {
     font-size: 36px;
     line-height: 46px;
+    white-space: nowrap;
+  }
+  .services-section-h2 .outer-box .lower-box .service-block-h2 .inner-box .content-box .title-box .title a {
+    white-space: nowrap;
   }
 }
 
@@ -11063,6 +11078,10 @@ banner-section-h2
   .services-section-h2 .outer-box .lower-box .service-block-h2 .inner-box .content-box .title-box .title {
     font-size: 24px;
     line-height: 34px;
+    white-space: nowrap;
+  }
+  .services-section-h2 .outer-box .lower-box .service-block-h2 .inner-box .content-box .title-box .title a {
+    white-space: nowrap;
   }
 }
 
@@ -11528,6 +11547,8 @@ banner-section-h2
    with the Search Engine Marketing title without adding <br> tags. */
 .ks-service-style-2 .ks-service-item .ks-service-title a[data-i18n="service_social_media"] {
   font-size: 20px;
+  white-space: nowrap;
+  display: inline-block !important;
 }
 
 @media (max-width: 1199.98px) {
