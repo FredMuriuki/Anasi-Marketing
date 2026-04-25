@@ -2,20 +2,13 @@
   base = "html.anasimarketing.ltd/2025/anasimarketing-html"
   publish = "."
 
-[[redirects]]
-  from = "/services"
-  to = "/page-services.html"
-  status = 200
-  force = true
+[build.processing]
+  skip_processing = false
+[build.processing.html]
+  pretty_urls = true
 
 [[redirects]]
   from = "/about"
   to = "/page-about.html"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/contact"
-  to = "/page-contact.html"
   status = 200
   force = true
