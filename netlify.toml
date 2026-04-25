@@ -1,0 +1,3 @@
+[build]
+  base = "html.anasimarketing.ltd/2025/anasimarketing-html"
+  publish = "."
