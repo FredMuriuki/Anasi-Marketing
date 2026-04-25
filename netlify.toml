@@ -1,3 +1,18 @@
 [build]
   base = "html.anasimarketing.ltd/2025/anasimarketing-html"
   publish = "."
+
+[[redirects]]
+  from = "/services"
+  to = "/page-services.html"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/page-about.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/page-contact.html"
+  status = 200
