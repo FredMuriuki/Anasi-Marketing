@@ -7,6 +7,7 @@
     { "source": "/blog",     "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/blog-grid.html" },
     { "source": "/contact",  "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/page-contact.html" },
     { "source": "/search",   "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/search.html" },
+    { "source": "/masterclass", "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/masterclass.html" },
     { "source": "/thank-you", "destination": "/html.anasimarketing.ltd/2025/anasimarketing-html/thank-you.html" }
   ],
   "redirects": [
@@ -18,6 +19,7 @@
     { "source": "/blog/", "destination": "/blog", "permanent": true },
     { "source": "/contact/", "destination": "/contact", "permanent": true },
     { "source": "/search/", "destination": "/search", "permanent": true },
+    { "source": "/masterclass/", "destination": "/masterclass", "permanent": true },
     { "source": "/thank-you/", "destination": "/thank-you", "permanent": true },
     { "source": "/index.html", "destination": "/home", "permanent": true },
     { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/index.html", "destination": "/home", "permanent": true },
@@ -28,6 +30,7 @@
     { "source": "/blog-grid.html",     "destination": "/blog",     "permanent": true },
     { "source": "/page-contact.html",  "destination": "/contact",  "permanent": true },
     { "source": "/search.html",        "destination": "/search",   "permanent": true },
+    { "source": "/masterclass.html",   "destination": "/masterclass", "permanent": true },
     { "source": "/thank-you.html",     "destination": "/thank-you", "permanent": true },
 
     { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/page-about.html",    "destination": "/about",    "permanent": true },
@@ -36,6 +39,7 @@
     { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/blog-grid.html",     "destination": "/blog",     "permanent": true },
     { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/page-contact.html",  "destination": "/contact",  "permanent": true },
     { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/search.html",        "destination": "/search",   "permanent": true },
+    { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/masterclass.html",   "destination": "/masterclass", "permanent": true },
     { "source": "/html.anasimarketing.ltd/2025/anasimarketing-html/thank-you.html",     "destination": "/thank-you", "permanent": true }
   ]
 }
